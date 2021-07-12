@@ -1,0 +1,21 @@
+/**
+ * @author Josélio de S. C. Júnior <joseliojrx25@gmail.com>
+ * @copyright Josélio de S. C. Júnior 2021
+ */
+.invisible {
+    opacity: 0%;
+}
+.gone {
+    display: none;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

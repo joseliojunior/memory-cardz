@@ -1,0 +1,153 @@
+/**
+ * @author Josélio de S. C. Júnior <joseliojrx25@gmail.com>
+ * @copyright Josélio de S. C. Júnior 2021
+ */
+@media only screen and (orientation:portrait) {
+    #game-timer, #game-timer span, #end-card span {
+        font-size: 4vw !important;
+    }
+    #pause-game-btn {
+        font-size: 3vw !important;
+    }
+    .p-btn, .e-btn {
+        font-size: 4vw !important;
+    }
+    #end-card span {
+        font-size: 7vw !important;
+    }
+    #end-score span {
+        font-size: 4vw !important;
+    }
+    #end-score sub {
+        font-size: 3vw !important;
+    }
+}
+
+#current-game {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    opacity: 0%;
+}
+#game-timer, #game-timer span, #end-card span {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4vh;
+}
+
+
+#game-timer {
+    justify-content: space-between;
+    position: fixed;
+    text-align: right;
+    width: 98%;
+    opacity: 0%;
+}
+
+#pause-game-btn {
+    width: fit-content;
+    padding: 5px 8px;
+    margin: 0.5%;
+    font-size: 3vh;
+}
+
+#pause-screen, #end-screen {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.432);
+    opacity: 0%;
+}
+
+#pause-card, #end-card {
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: inset 0 0 10vh #000;
+}
+
+.p-btn, .e-btn {
+    width: 10%;
+    margin: 1% 0;
+    padding: 5px 10%;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
+    white-space: nowrap;
+    box-shadow: inset 0 0 15px rgb(0, 0, 0);
+    background: rgb(34, 34, 34);
+    color: var(--light-text);
+    cursor: pointer;
+    user-select: none;
+}
+
+.p-btn:active, .e-btn:active {
+    box-shadow: inset 0 0 25px var(--glow);
+}
+
+.e-btn {
+    width: 80%;
+}
+
+#end-card span {
+    color: #333;
+    font-size: 7vh;
+    font-weight: 700;
+}
+
+.half-card1, .half-card2 {
+    height: 100%;
+}
+
+.half-card1 {
+    width: 50%;
+}
+.half-card2 {
+    width: 40%;
+}
+
+.grey-card {
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px rgb(0, 0, 0);
+    background: rgb(34, 34, 34);
+}
+
+#rank {
+    width: 80%;
+    height: 80%;
+}
+#rank img {
+    height: 95%;
+}
+
+#end-score {
+    width: 90%;
+    height: 60%;
+    margin-bottom: 2%;
+}
+
+#end-score span {
+    font-size: 4vh;
+    color: var(--light-text);
+}
+
+.score-desc {
+    background: var(--glow);
+    border-radius: 100px;
+    width: 90%;
+    margin-top: 2%;
+    text-indent: 10px;
+    color: #333 !important;
+}
+
+#end-score sub {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3vh;
+}

@@ -1,0 +1,199 @@
+/**
+ * @author Josélio de S. C. Júnior <joseliojrx25@gmail.com>
+ * @copyright Josélio de S. C. Júnior 2021
+ */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+@media only screen and (orientation:portrait) {
+    #game-logo span:first-child {
+        font-size: 8vw !important;
+    }
+    #game-logo span:nth-child(2) {
+        margin-top: -1.5vw !important;
+        font-size: 6.8vw !important;
+    }
+    #game-logo span:nth-child(2) span {
+        font-size: 4vw !important;
+    }
+    .t-btn {
+        font-size: 4vw !important;
+    }
+    #game-link-4 {
+        font-size: 3vw !important;
+    }
+}
+
+:root {
+    --dark-text: #333;
+    --light-text: #fff;
+    --glow: rgb(255, 102, 0);
+}
+
+#title-screen,
+#about-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    color: var(--dark-text);
+}
+
+#about-screen {
+    opacity: 100%;
+}
+
+#title-card,
+#about-card {
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: inset 0 0 10vh #000;
+}
+
+#about-text p, #about-text span {
+    margin-right: 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-indent: 20px;
+}
+
+.about-contacts {
+    padding: 2% 0;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px rgb(0, 0, 0);
+    background: rgb(34, 34, 34);
+}
+.about-author {
+    height: 90px;
+}
+.about-contacts a {
+    height: 100%;
+}
+.about-author img, .about-contacts img {
+    height: 100%;
+    margin: 10px;
+}
+
+#game-logo {
+    height: 25%;
+    width: 100%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+#game-logo span {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+#game-logo span:first-child {
+    font-size: 8vh;
+}
+#game-logo span:nth-child(2) {
+    margin-top: -1.5vh;
+    font-size: 6.8vh;
+}
+#game-logo span:nth-child(2) span {
+    font-size: 4vh;
+}
+
+#title-btn-box {
+    height: 100%;
+    width: fit-content;
+}
+
+.t-btn, .i-btn {
+    width: 90%;
+    margin: 2% 0;
+    padding: 5px 15%;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
+    white-space: nowrap;
+    box-shadow: inset 0 0 15px rgb(0, 0, 0);
+    background: rgb(34, 34, 34);
+    color: var(--light-text);
+    cursor: pointer;
+    user-select: none;
+}
+
+.t-btn:hover, .i-btn:hover {
+    box-shadow: inset 0 0 15px var(--glow);
+}
+
+.t-btn:hover {
+    box-shadow: inset 0 0 15px var(--glow);
+    background: rgb(17, 17, 17);
+}
+
+.i-btn {
+    width: auto;
+    padding: 5px 40px;
+    background: rgb(0, 128, 79);
+}
+
+.i-btn:hover {
+    box-shadow: inset 0 0 15px rgb(0, 255, 242);
+}
+
+
+#github-msg-box {
+    width: 98%;
+    text-align: right;
+    margin: 0 2% 1% 0;
+}
+
+#game-link-4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3vh;
+    font-weight: 700;
+    color: var(--dark-text);
+}
+#game-link-4:hover {
+    color: var(--glow);
+}
+
+
+/* About screen */
+#go-back-title-screen,
+#about-title-text {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+
+#go-back-title-screen {
+    width: fit-content;
+    padding: 5px 5%;
+    border-radius: 5px;
+    box-shadow: inset 0 0 15px rgb(0, 0, 0);
+    background: rgb(34, 34, 34);
+    
+    font-size: 0.9rem;
+    color: var(--light-text);
+    cursor: pointer;
+}
+#go-back-title-screen:hover {
+    box-shadow: inset 0 0 10px var(--glow);
+}
+
+#about-title-box {
+    width: 90%;
+}
+
+#about-text {
+    width: 90%;
+    height: 70%;
+    margin: 2%;
+    overflow: auto;
+}
+#about-text::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+#about-text::-webkit-scrollbar-thumb {
+    background-color: var(--glow);
+    border-radius: 5px;
+}
