@@ -30,7 +30,7 @@ export class GameTranslation {
         // Page description
         gamePageDescription: `
         <div id="game-page-d-box" class="flex">            
-            <img id="game-img" src="../img/cards.png">
+            <img id="game-img" src="img/cards.png">
             <div class="flexblock">
                 <p> 
                     This project is a 10 card memory game.
@@ -109,7 +109,7 @@ export class GameTranslation {
         // Page description
         gamePageDescription: `
         <div id="game-page-d-box" class="flex">            
-            <img id="game-img" src="../img/cards.png">
+            <img id="game-img" src="img/cards.png">
             <div class="flexblock">
                 <p> 
                     Este projeto é um jogo da memória de 10 cartas. 
