@@ -37,7 +37,7 @@
 .card {
     margin: 5px;
     border-radius: 4px;
-    background: url('/post/p1_memory_cardz/img/cardBackgroundMirrored.png');
+    background: url('img/cardBackgroundMirrored.png');
     background-color: rgb(158, 0, 0);
     background-size: contain;
     transform: rotateY(180deg);
