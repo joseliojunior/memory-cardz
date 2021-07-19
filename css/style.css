@@ -3,7 +3,7 @@
  * @copyright Josélio de S. C. Júnior 2021
  */
 @import url('utils.css');
-@import url('/post/p1_memory_cardz/css/game/game.css');
+@import url('game/game.css');
 
 :root {
     --header-height: 60px;

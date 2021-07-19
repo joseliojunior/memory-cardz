@@ -3,6 +3,11 @@
  * @copyright Josélio de S. C. Júnior 2021
  */
 `use strict`
+const links = {
+    artStation: 'https://www.artstation.com/josliojnior',
+    github: 'https://github.com/joseliojunior',
+    linkedIn: 'https://www.linkedin.com/in/josélio-de-souza-cavalcante-júnior-ba66791a3'
+};
 export class GameTranslation {
 
     static ver = '1.0';
@@ -25,7 +30,7 @@ export class GameTranslation {
         // Page description
         gamePageDescription: `
         <div id="game-page-d-box" class="flex">            
-            <img id="game-img" src="/post/p1_memory_cardz/img/cards.png">
+            <img id="game-img" src="/img/cards.png">
             <div class="flexblock">
                 <p> 
                     This project is a 10 card memory game.
@@ -75,13 +80,13 @@ export class GameTranslation {
         </p>
         <div class="flex">
             <p class="flex about-contacts">
-                <a id="game-link-1" href="https://github.com/joseliojunior" class="flex">
+                <a id="game-link-1" href="${links.github}" class="flex">
                 <img src="../../img/githubIcon.png">
                 </a>
-                <a id="game-link-2" href="https://www.linkedin.com/in/josélio-de-souza-cavalcante-júnior-ba66791a3" class="flex">
+                <a id="game-link-2" href="${links.linkedIn}" class="flex">
                     <img src="../../img/linkedinIcon.png">
                 </a>
-                <a id="game-link-3" href="https://www.artstation.com/josliojnior" class="flex">
+                <a id="game-link-3" href="${links.artStation}" class="flex">
                     <img src="../../img/artstationIcon.png">
                 </a>
             </p>
@@ -104,7 +109,7 @@ export class GameTranslation {
         // Page description
         gamePageDescription: `
         <div id="game-page-d-box" class="flex">            
-            <img id="game-img" src="/post/p1_memory_cardz/img/cards.png">
+            <img id="game-img" src="/img/cards.png">
             <div class="flexblock">
                 <p> 
                     Este projeto é um jogo da memória de 10 cartas. 
@@ -154,13 +159,13 @@ export class GameTranslation {
         </p>
         <div class="flex">
             <p class="flex about-contacts">
-                <a id="game-link-1" href="https://github.com/joseliojunior" class="flex">
+                <a id="game-link-1" href="${links.github}" class="flex">
                 <img src="../../img/githubIcon.png">
                 </a>
-                <a id="game-link-2" href="https://www.linkedin.com/in/josélio-de-souza-cavalcante-júnior-ba66791a3" class="flex">
+                <a id="game-link-2" href="${links.linkedIn}" class="flex">
                     <img src="../../img/linkedinIcon.png">
                 </a>
-                <a id="game-link-3" href="https://www.artstation.com/josliojnior" class="flex">
+                <a id="game-link-3" href="${links.artStation}" class="flex">
                     <img src="../../img/artstationIcon.png">
                 </a>
             </p>
