@@ -3,7 +3,6 @@
  * @copyright Josélio de S. C. Júnior 2021
  */
 `use strict`
-import test from '../img/cards.png'
 const links = {
     artStation: 'https://www.artstation.com/josliojnior',
     github: 'https://github.com/joseliojunior',
