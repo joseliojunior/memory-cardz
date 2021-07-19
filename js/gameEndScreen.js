@@ -22,7 +22,7 @@ export class GameEndScreen {
             <section id="end-card" class="flex">
                 <section class="flexblock half-card1">
                     <div id="rank" class="flex grey-card">
-                        <img src="./img/rank${rankLetter}.png">
+                        <img src="../img/rank${rankLetter}.png">
                     </div>
                     <span>rank</span>
                 </section>

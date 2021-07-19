@@ -77,11 +77,11 @@ export class Game {
         for (let i = 0; i < this.properties.deckSize; i++) {
             if (i >= this.properties.deckSize / 2) {
                 cardsArr.push(`<div id="card${i}" class="card">
-                <img src="/post/p1_memory_cardz/img/${i - this.properties.deckSize / 2}.png" class="front-face">
+                <img src="../img/${i - this.properties.deckSize / 2}.png" class="front-face">
                 </div>`);
             } else {
                 cardsArr.push(`<div id="card${i}" class="card">
-                <img src="/post/p1_memory_cardz/img/${i}.png" class="front-face">
+                <img src="../img/${i}.png" class="front-face">
                 </div>`);
             };  
         };
