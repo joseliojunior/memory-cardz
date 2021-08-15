@@ -3,8 +3,8 @@
  * @copyright Josélio de S. C. Júnior 2021
  */
 `use strict`
-import { InGame } from "./inGame.js";
-import { GameTranslation } from "./gameTranslation.js";
+import { InGame } from './inGame.js';
+import { GameTranslation } from './gameTranslation.js';
 
 export class GameEndScreen {
 
@@ -22,7 +22,7 @@ export class GameEndScreen {
             <section id="end-card" class="flex">
                 <section class="flexblock half-card1">
                     <div id="rank" class="flex grey-card">
-                        <img src="../img/rank${rankLetter}.png">
+                        <img src="./img/rank${rankLetter}.png">
                     </div>
                     <span>rank</span>
                 </section>
