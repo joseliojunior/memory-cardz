@@ -21,7 +21,7 @@ export class GameTranslation {
             : this.cLang == 'pt' || this.cLang == 'pt-BR' ? this.pt 
             : this.en;
         } else return this.cLang == 'en' || this.cLang == 'en-US' ? this.en 
-            : this.cLang == 'pt' || this.cLang == 'ept-BR' ? this.pt 
+            : this.cLang == 'pt' || this.cLang == 'pt-BR' ? this.pt 
             : this.en;
     };
 
