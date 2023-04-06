@@ -1,2 +1,2 @@
-# [joseliojunior.github.io/memory-cardz/](https://joseliojunior.github.io/memory-cardz/)
+# ~~[joseliojunior.github.io/memory-cardz/](https://joseliojunior.github.io/memory-cardz/)~~
 ![](banner.png)

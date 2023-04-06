@@ -3,7 +3,7 @@
  * @copyright Josélio de S. C. Júnior 2021
  */
 `use strict`
-import { Layout } from '../../../js/Classes.js';
+// import { Layout } from '../../../js/Classes.js';
 import { Game } from './game.js';
 
 const ids = {
@@ -15,20 +15,20 @@ const ids = {
 
 class main {
 
-    static setLayout() {
-        Layout.themePicker(ids.starThemeBtn, ids.themeLinkElement);
-    };
+    // static setLayout() {
+    //     Layout.themePicker(ids.starThemeBtn, ids.themeLinkElement);
+    // };
 
-    static loadEnd() {
-        this.setLayout();
-        setTimeout(() => {
-            ids.loading.remove();
-        }, 500);  
-    };
+    // static loadEnd() {
+    //     this.setLayout();
+    //     setTimeout(() => {
+    //         ids.loading.remove();
+    //     }, 500);  
+    // };
 
     static get init() {
         Game.init();
-        this.loadEnd();
+        // this.loadEnd();
         window.addEventListener('resize', this.setLayout);
     };
 };
